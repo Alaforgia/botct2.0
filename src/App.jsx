@@ -1,12 +1,12 @@
-import { Route } from "react-router-dom";
+// import { Route } from "react-router-dom";
 import GameSelectHome from "./screens/GameSelectHome";
 
 function App() {
   return (
     <>
-      <Route>
+      {/* <Route> */}
         <GameSelectHome />
-      </Route>
+      {/* </Route> */}
     </>
   );
 }
