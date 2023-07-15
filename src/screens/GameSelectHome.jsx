@@ -12,7 +12,7 @@ function GameSelectHome() {
             className="p-3 mb-7 border-spacing-6 border-2 border-black rounded-xl cursor-pointer"
             onClick={handleGameSelectClick()}
           >
-            <Link to="/">Trouble Brewing</Link>
+            <Link to="/description">Trouble Brewing</Link>
           </p>
           <p className="p-1 mb-7">Coming Soon...</p>
         </div>
