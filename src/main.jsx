@@ -5,6 +5,7 @@ import "./index.css";
 import GameSelectHome from "./screens/GameSelectHome";
 import GameModeDescription from "./screens/GameModeDescription";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import PlayerSelect from "./screens/PlayerSelect";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     path: "description",
     // will eventually have an id
     element: <GameModeDescription />,
+  },
+  {
+    path: "playerselect",
+    element: <PlayerSelect />,
   },
 ]);
 
