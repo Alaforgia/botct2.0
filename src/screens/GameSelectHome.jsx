@@ -9,7 +9,7 @@ function GameSelectHome() {
         <p className="p-1 mb-4 font-serif font-bold text-4xl ">Select Game Type:</p>
         <div className="p-2 font-serif font-bold text-3xl">
           <p
-            className="p-3 mb-7 border-spacing-6 border-2 border-black rounded-xl cursor-pointer"
+            className="p-3 mb-7 border-spacing-6 border-2 border-black rounded-neu-button shadow-neu-button bg-neu-button cursor-pointer"
             onClick={handleGameSelectClick()}
           >
             <Link to="/description">Trouble Brewing</Link>

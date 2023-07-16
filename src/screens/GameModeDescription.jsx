@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import tailwindcssNeumorphism from "tailwindcss-neumorphism";
 
 function GameModeDescription() {
   // Trouble Brewing description static data will go here
@@ -18,17 +19,21 @@ function GameModeDescription() {
     <>
       <div className="flex flex-col items-center justify-center antialiased">
         <div className="font-display">
-          <p className="p-5 text-center text-3xl font-bold">Trouble Brewing</p>
+          <p className="p-5 mb-2 text-center text-3xl font-bold rounded-2xl shadow-neu-button bg-neu-button">
+            Trouble Brewing
+          </p>
           <p className=" mb-1 text-center text-2xl font-bold sm:underline">Gameplay</p>
-          <p className="p-5 ml-1 text-2xl tracking-wide leading-snug text-left break-words font-bold whitespace-pre-line">
+          <p className="p-3 ml-3 text-2xl tracking-wide leading-snug text-left break-words font-bold whitespace-pre-line indent-10">
             {gameplayDesc}
           </p>
         </div>
-        <div className="flex flex-row space-x-10 text-lg font-bold mb-1">
+        <div className="flex flex-row space-x-16 text-lg font-bold mb-1">
           <Link to={"/"}>
-            <p className="p-2 border-spacing-6 border-2 border-black rounded-xl cursor-pointer">Back</p>
+            <p className="p-2 border-spacing-6 border-2 border-black rounded-neu-button shadow-neu-button bg-neu-button cursor-pointer">
+              Back
+            </p>
           </Link>
-          <p className="p-2 border-spacing-6 border-2 border-black rounded-xl shadow-xl bg cursor-pointer">
+          <p className="p-2 border-spacing-6 border-2 border-black rounded-neu-button shadow-neu-button bg-neu-button cursor-pointer">
             Continue To Set-Up
           </p>
           <Outlet />
