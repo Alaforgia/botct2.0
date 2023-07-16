@@ -1,5 +1,4 @@
 import { Outlet, Link } from "react-router-dom";
-import tailwindcssNeumorphism from "tailwindcss-neumorphism";
 
 function GameModeDescription() {
   // Trouble Brewing description static data will go here
@@ -33,9 +32,11 @@ function GameModeDescription() {
               Back
             </p>
           </Link>
-          <p className="p-2 border-spacing-6 border-2 border-black rounded-neu-button shadow-neu-button bg-neu-button cursor-pointer">
-            Continue To Set-Up
-          </p>
+          <Link to={"/playerselect"}>
+            <p className="p-2 border-spacing-6 border-2 border-black rounded-neu-button shadow-neu-button bg-neu-button cursor-pointer">
+              Continue To Set-Up
+            </p>
+          </Link>
           <Outlet />
         </div>
       </div>
