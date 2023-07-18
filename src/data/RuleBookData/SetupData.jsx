@@ -1,7 +1,7 @@
 import React from "react";
 
 function SetupData() {
-  const gatherPLayers = `Get one chair per player and arrange the chairs facing each other. A rough circle or square is fine, as long as people are sitting in a definite clockwise or counterclockwise order. As the Storyteller, you will need to be able to enter and exit the circle often, so leave a gap between two chairs. The center of this space will need to be mostly empty - no tables or hazards on the floor which can be tripped on.
+  const gatherPlayers = `Get one chair per player and arrange the chairs facing each other. A rough circle or square is fine, as long as people are sitting in a definite clockwise or counterclockwise order. As the Storyteller, you will need to be able to enter and exit the circle often, so leave a gap between two chairs. The center of this space will need to be mostly empty - no tables or hazards on the floor which can be tripped on.
   `;
 
   const prepareGrimoire = `Clip the Grimoire by fastening the two metal clips as close as possible to the upper and lower corners of the game box, creating a sturdy book-like container. Unfold and assemble the two-piece Grimoire stand and place the Grimoire upon it, putting it where players that walk around will not accidentally see its contents. Collect supplies of all the info, night, and shroud tokens anywhere you like in the Grimoire. (We recommend the bottom-left corner of the right side.)`;
